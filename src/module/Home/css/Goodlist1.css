@@ -1,0 +1,32 @@
+#goodList1{
+    /* width: 100%; */
+    width: 100%;
+    overflow-x: scroll;
+    height: 145px;
+}
+#goodList1 .good{
+    width: 200%;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#goodList1 .good .List{
+    width: 25%;
+    height: 140px;
+    
+}
+#goodList1 .good .List .title{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    height: 35px;
+    overflow: hidden;
+}
+#goodList1 .good .List .price{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-weight: 700;
+}

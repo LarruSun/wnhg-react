@@ -1,0 +1,17 @@
+#CenterImgs{
+    width: 100%;
+    /* height: 145px; */
+}
+#CenterImgs .CenterImg1{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#CenterImgs .CenterImg1 img{
+    width: 40%;
+    height: 60px;
+    margin-left: 6%;
+    border-radius: 10px;
+}

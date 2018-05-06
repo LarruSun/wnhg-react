@@ -1,0 +1,39 @@
+#GoodList{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+}
+#GoodList .list{
+    width: 50%;
+}
+#GoodList .list p{
+    margin: 0px;
+    padding: 0px;
+}
+#GoodList .list .title{
+    width: 95%;
+    margin-left: 5%;
+    height: 35px;
+    overflow: hidden;
+}
+
+#GoodList .list .price{
+    width: 95%;
+    margin-left: 5%;
+}
+
+#GoodList .list .price span{
+    /* display: inline-block; */
+    /* width: 10%; */
+    font-size: 15px;
+    color: red;
+    font-weight: 700;
+}
+#GoodList .list .price s{
+    margin-left: 5%;
+    color: #aaa;
+    font-size: 13px;
+}
+
+
